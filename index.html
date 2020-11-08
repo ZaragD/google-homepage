@@ -8,16 +8,35 @@
 
 <html>
     <body>
-        <a href="#">About</a>
-        <a href="#">Store</a>
-        <a href="#">Gmail</a>
-        <a href="#">Images</a>
-        <button type="submit">Sign In</button>
-        <div class="image">
-        <img src="https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png" alt="image of the google logo">
-    </div>
-<div class="search-bar"><input type="text"></div>
-<div><button type="submit">Google Search</button></div>
-<div><button type="submit">I'm Feeling Lucky</button></div>
+        <div class="parent-div">
+
+            <header class="navbar">
+
+                <div class="left-side">
+
+                    <a href="#">About</a>
+                    <a href="#">Store</a>
+                </div>
+        
+                <div class="right-side">
+                    <a href="#">Gmail</a>
+                    <a href="#">Images</a>
+                    <button id="signin-button" class="sign-in" type="submit">Sign in</button>
+                </div>
+
+            </header>
+            
+            <div id="google-logo"> </div>
+
+            <div class="search-bar"> <input type="text" placeholder=""> </div>
+    
+            <div class="button-container">
+
+                <div><button type="submit">Google Search</button></div>
+                
+                <div><button type="submit">I'm Feeling Lucky</button></div>
+
+            </div>
+        </div>    
     </body>
 </html>
